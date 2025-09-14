@@ -6,8 +6,8 @@
 
 body {
     height: 100%;
-    width: 100vw;
-    overflow-x: hidden;
+   max-width: 100vw;
+	overflow-x: hidden;
     background-image: linear-gradient(to bottom, rgb(211, 213, 224), rgb(247, 246, 251));
 }
 
