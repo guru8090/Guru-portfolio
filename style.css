@@ -1,0 +1,918 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100vw;
+    overflow-x: hidden;
+    background-image: linear-gradient(to bottom, rgb(211, 213, 224), rgb(247, 246, 251));
+}
+
+.bannerLeft {
+    position: relative
+}
+
+.zigzag {
+    position: absolute;
+    top: 0%;
+    left: -45px;
+}
+
+.square {
+    position: absolute;
+    top: 0%;
+    right: 0px;
+}
+
+.manyCircle {
+    position: absolute;
+    bottom: 0%;
+    right: 20px;
+}
+
+.plush {
+    position: absolute;
+    top: 0%;
+    left: 100px;
+}
+
+.circle {
+    position: absolute;
+    bottom: 0%;
+    left: 50px;
+}
+
+.navbar-color {
+    background-color: rgb(252, 252, 252);
+    box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.3);
+}
+
+.logo img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 2px solid black
+}
+
+ul a {
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 20px
+}
+
+ul a:hover {
+    color: rgb(232, 73, 73)
+}
+
+.bannerLeft {
+    padding: 30px
+}
+
+.bannerLeft img {
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.container-name {
+    display: flex;
+    align-items: baseline;
+    font-family: 'Arial', sans-serif;
+    color: #134580;
+}
+
+.line {
+    width: 150px;
+    height: 2px;
+    background-color: #134580;
+    margin-right: 10px;
+    margin-bottom: 6px;
+}
+
+.name {
+    font-size: 37px;
+    font-weight: 400;
+    color: rgb(66, 74, 115);
+}
+
+.bannerRight b {
+    font-size: 37px;
+    font-family: 'Arial', sans-serif;
+    font-weight: 700;
+    color: rgb(66, 74, 115);
+}
+
+.bannerRight p,
+.icon {
+    color: rgb(70, 70, 75)
+}
+
+.icon {
+    font-weight: 500;
+}
+
+.skill-paragraph {
+    color: rgb(159, 158, 159)
+}
+
+button {
+    background-color: rgb(19, 69, 128);
+    color: white;
+    background-color: rgb(232, 73, 73);
+    border: none;
+}
+
+button:hover {
+    background-color: rgb(240, 240, 240);
+    color: rgb(70, 110, 160);
+    border: 2px solid rgb(19, 69, 128);
+    ;
+}
+
+.skill,
+.aboutWord,
+.projectWord,
+.contactWord {
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(232, 73, 73);
+}
+
+.skills {
+    color: rgb(19, 69, 128);
+    font-size: 16px;
+}
+
+.skill-section-right {
+    box-sizing: border-box;
+}
+
+.skill-section-right img {
+    height: 380px;
+    transform: scale(1.2);
+}
+
+.icon-wrapper {
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+
+.main-icon {
+    font-size: 60px;
+    color: rgb(66, 74, 115);
+}
+
+.sub-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-51%, -57%);
+    font-size: 35px;
+    color: white;
+    pointer-events: none;
+}
+
+.aboutParagraoh {
+    color: rgb(75, 82, 98);
+    font-size: 19px;
+}
+
+.namste-bazzar {
+    width: 340px;
+    height: 340px
+}
+
+.project-container {
+    background-color: rgb(52, 61, 104)
+}
+
+.vedioContainer {
+    background-image: linear-gradient(45deg, rgb(139, 238, 227), rgb(12, 83, 190));
+}
+
+video {
+    background-color: #f0f0f0;
+    width: 300px;
+}
+
+.projectRelatedInformation {
+    background-color: rgb(38, 44, 76);
+    width: 300px;
+    color: #f0f0f0;
+    font-size: 13px;
+    border: 2px solid #f0f0f0
+}
+
+.projectLink {
+    border: 2px solid #f0f0f0;
+    width: 150px;
+    padding: 5px 0px
+}
+
+.projectRelatedInformation p a {
+    font-size: 10px;
+    color: #f0f0f0
+}
+
+input,
+textarea {
+    box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.3);
+    font-size: 14px;
+}
+
+input,
+textarea {
+    width: 450px;
+    font-size: 14px;
+}
+
+.sendMsg button {
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(52, 61, 104);
+    font-size: 15px;
+}
+
+button i {
+    color: rgb(66, 183, 231);
+}
+
+.custom-shape-divider-bottom-1752000011 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.image-container {
+    position: relative;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: white;
+    text-align: center;
+}
+
+.end-text {
+    position: absolute;
+    bottom: 10%;
+    color: white;
+    width: 100%;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.text-overlay p {
+    padding: 10px;
+    margin: 30px 00px;
+    font-size: 19px
+}
+
+.text-overlay a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: white;
+    text-decoration: none
+}
+
+a i {
+    font-size: 19px;
+}
+
+.visible {
+    display: none !important;
+}
+
+.portFolio-container {
+    opacity: 0;
+    transform: translateY(100px);
+    animation: blinkSlideUp 0.8s ease-out forwards;
+}
+
+@keyframes blinkSlideUp {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.rotate_image {
+    animation: rotateimg 1s ease-in-out 1s forwards;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+}
+
+@keyframes rotateimg {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    100% {
+
+        transform: rotateY(360deg);
+    }
+}
+
+@media (max-width: 575.98px) {
+
+    .navbar {
+        padding: 10px 10px;
+        margin-bottom: 40px;
+    }
+
+    li a {
+        font-size: 16px
+    }
+
+    .bannerRight {
+        margin: 5px 15px;
+
+    }
+
+    .buttons {
+        justify-content: center;
+    }
+
+    .bannerLeft img {
+        height: 220px;
+        width: 220px;
+    }
+
+    .bannerRight b {
+        font-size: 25px;
+    }
+
+    .name {
+        font-size: 25px;
+    }
+
+    .line {
+        width: 70px;
+    }
+
+    button {
+        font-size: 16px;
+    }
+
+    .skill-section-right img {
+        height: 300px;
+        width: 320px;
+
+    }
+
+    .skill-section-left {
+        margin: 0px 15px
+    }
+
+    .icon-wrapper {
+        width: 80px
+    }
+
+    .skill,
+    .aboutWord {
+        font-size: 27px;
+    }
+
+    .aboutParagraoh {
+        font-size: 16px;
+    }
+
+    .contactSvgImage img {
+        height: 300px;
+        width: 370px;
+    }
+
+    input,
+    textarea {
+        width: 370px
+    }
+
+    .text-overlay {
+        flex-direction: column;
+        justify-content: space-between;
+        gap:15px
+    }
+
+    .text-overlay {
+        position: absolute;
+        top: 13%;
+    }
+
+    .text-overlay a {
+        gap: 4px;
+    }
+
+    .text-overlay p {
+        padding: 10px;
+        margin: 3px 00px;
+        font-size: 14px
+    }
+
+    a {
+        font-size: 14px
+    }
+
+    a i {
+        font-size: 14px;
+    }
+
+    .end-text {
+        position: absolute;
+        bottom: 0%;
+        font-size: 12px;
+        display: none !important;
+    }
+
+    .visible {
+        display: block !important;
+        display: flex !important;
+        font-size: 12px;
+        padding: 20px 0px
+    }
+
+    .manyCircle {
+        position: absolute;
+        bottom: -30px;
+        right: 10px;
+
+    }
+
+    .zigzag {
+        left: -65px;
+    }
+
+    .plush {
+        position: absolute;
+        top: -20px;
+        left: 100px;
+    }
+
+    .circle {
+        left: 18px;
+    }
+
+    .image-container img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .portFolio-container {
+        animation: blinkSlideUp 1.4s ease-out forwards;
+    }
+
+    @keyframes blinkSlideUp {
+        0% {
+            opacity: 0;
+        }
+
+        20% {
+            opacity: 0.5;
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+}
+
+@media (min-width: 300px) and (max-width:374px) {
+    .contactSvgImage img {
+        height: 270px;
+        width: 340px;
+       
+    }
+
+    input,
+    textarea {
+        width: 340px
+    }
+
+    .text-overlay a {
+        gap: 4px
+    }
+
+    .text-overlay p {
+        font-size: 11px
+    }
+
+    a {
+        font-size: 10px
+    }
+
+    a i {
+        font-size: 10px;
+    }
+
+    .end-text {
+        font-size: 11px
+    }
+}
+
+@media (min-width: 480px) and (max-width: 576.98px) {
+    .text-overlay {
+        position: absolute;
+        top: 20%;
+    }
+
+    .end-text {
+        bottom: 10%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .navbar {
+        padding: 0px 45px;
+    }
+
+    .bannerRight {
+        margin-left: 45px;
+        margin-right: 20px
+    }
+
+    .bannerLeft {
+        padding-right: 45px;
+    }
+
+    .skill-svg {
+        padding: 0px 45px;
+    }
+
+    .bannerLeft img {
+        height: 220px;
+        width: 220px;
+    }
+
+    .bannerRight b {
+        font-size: 26px;
+    }
+
+    .name {
+        font-size: 26px;
+    }
+
+    .line {
+        width: 100px;
+    }
+
+    .smallIntroduction {
+        font-size: 14px;
+    }
+
+    .skill-section-right img {
+        height: 300px;
+        width: 300px;
+    }
+
+    .icon-wrapper {
+        width: 60px;
+        height: 80px;
+    }
+
+    .main-icon {
+        font-size: 45px;
+    }
+
+    .sub-icon {
+        font-size: 25px;
+        transform: translate(-51%, -62%);
+    }
+
+    .icon {
+        font-size: 14px;
+    }
+
+    .skill-section-left {
+        margin-left: 45px;
+    }
+
+    .skill-section-right {
+        margin-right: 45px;
+    }
+
+    button {
+        font-size: 12px
+    }
+
+    li a {
+        font-size: 14px;
+    }
+
+    .skill,
+    .aboutWord {
+        font-size: 22px;
+    }
+
+    .aboutParagraoh {
+        font-size: 16px;
+    }
+
+    .vedioContainer {
+        width: 185px;
+    }
+
+    video {
+        width: 175px;
+    }
+
+    .projectRelatedInformation {
+        width: 175px;
+    }
+
+    .projectRelatedInformation p {
+        font-size: 10px;
+    }
+
+    .projectLink {
+        width: 140px;
+    }
+
+    .contactSvgImage img {
+        height: 255px
+    }
+
+    input,
+    textarea {
+        width: 336px
+    }
+
+    .text-overlay {
+        position: absolute;
+        top: 20%;
+    }
+
+    .text-overlay p {
+        margin: 10px 00px;
+        font-size: 16px
+    }
+
+    a i {
+        font-size: 16px;
+    }
+
+    .end-text {
+        position: absolute;
+        bottom: 0%;
+        font-size: 16px
+    }
+}
+
+@media (min-width: 576px) and (max-width: 677.98px) {
+   .bannerRight b {
+        font-size: 20px;
+    }
+
+    .name {
+        font-size: 20px;
+    }
+
+    .bannerLeft img {
+        height: 250px;
+        width: 250px;
+    }
+
+    .zigzag {
+        position: absolute;
+        top: 0%;
+        left: -45px;
+    }
+
+    .square {
+        position: absolute;
+        top: 0%;
+        right: 40px;
+    }
+
+    .manyCircle {
+        position: absolute;
+        bottom: 0%;
+        right: 30px;
+    }
+
+    .skill-section-right img {
+        height: 280px;
+        width: 280px;
+
+    }
+
+    body {
+        overflow-x: hidden;
+
+    }
+
+    .contactSvgImage img {
+        height: 215px;
+        width: 300px;
+    }
+
+    input,
+    textarea {
+        width: 240px
+    }
+
+}
+
+@media (min-width: 678px) and (max-width: 760px) {
+    .contactSvgImage img {
+        height: 245px
+    }
+
+    input,
+    textarea {
+        width: 250px
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .icon-wrapper {
+        width: 80px;
+        height: 80px;
+    }
+
+    .main-icon {
+        font-size: 50px;
+    }
+
+    .sub-icon {
+        font-size: 25px;
+        transform: translate(-51%, -53%);
+    }
+
+    .skill-section-right img {
+        height: 300px;
+        width: 300px;
+    }
+
+    .bannerLeft img {
+        height: 280px;
+        width: 280px;
+    }
+
+    .bannerRight b {
+        font-size: 30px;
+    }
+
+    .name {
+        font-size: 30px;
+    }
+
+    .line {
+        width: 120px;
+    }
+
+    .icon {
+        font-size: 16px;
+    }
+
+    li a {
+        font-size: 16px;
+    }
+
+    .smallIntroduction,
+    .skill-paragraph {
+        font-size: 16px;
+    }
+
+    .skill,
+    .aboutWord {
+        font-size: 24px;
+    }
+
+    .aboutParagraoh {
+        font-size: 17px;
+    }
+
+    .vedioContainer {
+        width: 220px;
+    }
+
+    video {
+        width: 213px;
+    }
+
+    .projectRelatedInformation {
+        width: 213px;
+    }
+
+    .projectRelatedInformation p {
+        font-size: 12px;
+    }
+
+    .projectLink {
+        width: 140px;
+    }
+
+    .contactSvgImage img {
+        height: 250px
+    }
+
+    input,
+    textarea {
+        width: 308px
+    }
+
+    .text-overlay {
+        position: absolute;
+        top: 25%;
+    }
+
+    .text-overlay p {
+        margin: 15px 00px;
+        font-size: 18px
+    }
+
+    a i {
+        font-size: 18px;
+    }
+
+    .end-text {
+        position: absolute;
+        bottom: 0%;
+        font-size: 18px
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .skill-section-right img {
+        height: 350px;
+        width: 350px;
+    }
+
+    .bannerLeft img {
+        height: 300px;
+        width: 300px;
+    }
+
+    li a {
+        font-size: 19px;
+    }
+
+    .smallIntroduction,
+    .skill-paragraph {
+        font-size: 18px;
+    }
+
+    .vedioContainer {
+        width: 250px;
+    }
+
+    video {
+        width: 243px;
+    }
+
+    .projectRelatedInformation {
+        width: 243px;
+    }
+
+    .contactSvgImage img {
+        height: 350px;
+    }
+
+    input,
+    textarea {
+        width: 373px
+    }
+}
+@media (min-width: 1200px) {
+    .bannerRight {
+        padding-right: 100px;
+    }
+    .smallIntroduction,
+    .skill-paragraph {
+        font-size: 20px;
+    }
+    .contactSvgImage img {
+        height: 400px;
+    }
+    input,
+    textarea {
+        width: 450px;
+    }
+}
