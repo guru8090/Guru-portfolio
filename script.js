@@ -1,7 +1,3 @@
-
-
-
-
 gsap.from(".bannerRight", {
   xPercent: -100,
   opacity: 0,
@@ -20,7 +16,6 @@ gsap.from(".skill-section-right", {
   scrollTrigger: {
     trigger: ".skill-section-right",
     start: "top 50%",
-    markers:true,
     toggleActions: "play none none none"
   }
 });
@@ -69,7 +64,6 @@ gsap.from(('.contact-form'),{
   scrollTrigger:{
      trigger: ".contact-form",
     start: "top 60%",
-    markers:true,
     toggleActions: "play none none none",
   }
 })
