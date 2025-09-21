@@ -9,11 +9,12 @@
         integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="portFolio-container">
+    <div class="portFolio-container" data-scroll-container>
         <navbar>
 
             <div class="navbar-color" id="nav-bar">
@@ -51,14 +52,17 @@
                             <a href="#contact"><button
                                     class="px-3 py-2 py-lg-2 px-lg-3 px-sm-2 py-sm-2 rounded-pill">Contact
                                     Me</button></a>
-                            <a href="./resume/resume.html"><button class="px-3 py-2 py-lg-2 px-lg-3 px-sm-2 py-sm-2 rounded-pill">My Resume</button></a>
+                            <a href="./resume/resume.html"><button
+                                    class="px-3 py-2 py-lg-2 px-lg-3 px-sm-2 py-sm-2 rounded-pill">My
+                                    Resume</button></a>
                         </div>
                     </div>
                 </div>
                 <div class="bannerLeft me-0 order-1 order-sm-2 ">
                     <img src="component/1000139119-01.jpeg" alt="myImage" class="rotate_image">
                     <img src="component/zigzagTransparent.png" class="zigzag" alt="" style="height:120px;width:120px">
-                    <img src="component/square_Transparent_image.png" alt="" class="square" style="height:50px;width:50px">
+                    <img src="component/square_Transparent_image.png" alt="" class="square"
+                        style="height:50px;width:50px">
                     <img src="component/many_Circle_Transparent.png" class="manyCircle" "alt="" style="
                         height:120px;width:120px;">
                     <img src="component/plus_transparent_image.png" alt="" class="plush" style="height:50px;width:50px">
@@ -77,7 +81,7 @@
                         class="skills d-flex flex-column justify-content-center align-items-center order-2 order-sm-1 gap-2 gap-sm-3 gap-md-4">
                         <p class="mb-2 skill-paragraph text-center">I have a vast knowledge in the following technology
                         </p>
-                        <div class="d-flex gap-xl-5 gap-lg-3 gap-md-1 px-0">
+                        <div class="d-flex gap-xl-5 gap-lg-3 gap-md-1 px-0 skill-gsap">
 
                             <div class="d-flex flex-column align-items-center icon-wrapper">
                                 <i class="bi bi-hexagon main-icon"></i>
@@ -108,7 +112,7 @@
                             </div>
 
                         </div>
-                        <div class="d-flex gap-xl-5 gap-lg-3 gap-md-1 mt-3">
+                        <div class="d-flex gap-xl-5 gap-lg-3 gap-md-1 mt-3 skill-gsap">
                             <div class="d-flex flex-column align-items-center icon-wrapper">
                                 <i class="bi bi-hexagon main-icon"></i>
                                 <p class="skill-border sub-icon"><i class="fa-brands fa-react"
@@ -144,12 +148,14 @@
             <div class="about my-4 my-sm-3 container-md px-sm-5 px-md-0 px-lg-5" id="about">
                 <div class="aboutWord text-center my-4">ABOUT</div>
                 <div class="aboutParagraoh">
-                    <p>I’m a passionate Full Stack Java & Web Developer with a strong foundation in both frontend and
+                    <p class="about-paragraph">I’m a passionate Full Stack Java & Web Developer with a strong foundation
+                        in both frontend and
                         backend technologies. I specialize in building responsive, user-friendly web applications using
                         modern frameworks and tools. With expertise in Java, Spring Boot, HTML, CSS, JavaScript, and
                         React,
                         I craft seamless digital experiences from database to browser.</p>
-                    <p>I enjoy solving real-world problems through clean, efficient code and continuously strive to
+                    <p class="about-paragraph">I enjoy solving real-world problems through clean, efficient code and
+                        continuously strive to
                         learn
                         and grow in the ever-evolving tech landscape. Whether it’s developing scalable APIs or designing
                         intuitive user interfaces, I bring both creativity and logic to every project I work on.</p>
@@ -172,7 +178,8 @@
                             <div class="projectRelatedInformation d-flex align-items-center flex-column py-2">
                                 <p class="text-center">A responsive E-COMMERCE website using HTML,CSS,JAVASCRIPT</p>
                                 <P class="text-center projectLink">
-                                    Project Demo Link <a href="https://namste-bazzar.netlify.app/" target="_blank">NAMSTE-BAZZAR</a>
+                                    Project Demo Link <a href="https://namste-bazzar.netlify.app/"
+                                        target="_blank">NAMSTE-BAZZAR</a>
                                 </P>
                             </div>
                         </div>
@@ -182,9 +189,11 @@
                                 <source src="/component/care-plus.mp4" type="video/mp4">
                             </video>
                             <div class="projectRelatedInformation d-flex align-items-center flex-column py-2">
-                                <p class="text-center">A responsive Hospital Management System website using HTML,CSS,JAVASCRIPT,JDBC,Servlet,JSP</p>
+                                <p class="text-center">A responsive Hospital Management System website using
+                                    HTML,CSS,JAVASCRIPT,JDBC,Servlet,JSP</p>
                                 <P class="text-center projectLink">
-                                    Project Demo Link <br><a href="https://care-plus-92y0.onrender.com/" target="_blank" style="font-size:12px">Care<b style="font-size:14px;margin-left:2px">+</b></a>
+                                    Project Demo Link <br><a href="https://care-plus-92y0.onrender.com/" target="_blank"
+                                        style="font-size:12px">Care<b style="font-size:14px;margin-left:2px">+</b></a>
                                 </P>
                             </div>
                         </div>
@@ -197,7 +206,8 @@
                             <div class="projectRelatedInformation d-flex align-items-center flex-column py-2">
                                 <p class="text-center">A responsive E-COMMERCE website using HTML,CSS,JAVASCRIPT</p>
                                 <P class="text-center projectLink">
-                                    Project Demo Link <a href="https://namste-bazzar.netlify.app/" target="_blank">NAMSTE-BAZZAR</a>
+                                    Project Demo Link <a href="https://namste-bazzar.netlify.app/"
+                                        target="_blank">NAMSTE-BAZZAR</a>
                                 </P>
                             </div>
                         </div>
@@ -213,13 +223,14 @@
                         <img src="component/contact_side_image.png" alt="contactsvgimage">
                     </div>
                     <div class="contact">
-                        <form  action="https://formspree.io/f/xkgvepjz" method="POST" class="d-flex flex-column align-items-center gap-md-2">
+                        <form action="https://formspree.io/f/xkgvepjz" method="POST"
+                            class="d-flex contact flex-column align-items-center gap-md-2">
                             <input type="email" name="email" placeholder="Enter email address"
-                                class="p-2 border border-black border-opacity-50"><br>
+                                class="p-2 border border-black border-opacity-50 contact-form"><br>
                             <textarea id="message" name="message" rows="5" placeholder="Enter your message..."
-                                class="border border-black border-opacity-50 p-2"></textarea>
+                                class="border border-black border-opacity-50 p-2 contact-form"></textarea>
                             <div class="d-flex sendMsg">
-                                <button type="submit" class="py-2 px-3 mt-4">
+                                <button type="submit" class="py-2 px-3 mt-4 contact-form">
                                     Send Message <i class="bi bi-send-fill ms-2"></i>
                                 </button>
 
@@ -238,7 +249,7 @@
             <div class="image-container" style="width:100%">
                 <img src="component/wave.svg" alt="Background Image">
 
-                <div class="text-overlay ">
+                <div class="text-overlay">
 
                     <div class="d-flex flex-column align-items-center">
                         <p>My social media links</p>
@@ -297,21 +308,30 @@
                 </div>
             </div>
         </footer>
-        <div class="pt-5 my-0 visible text-center d-flex align-items-center justify-content-center gap-2" style="background-color:#343d68;color:white;">
+        <div class="pt-5 my-0 visible text-center d-flex align-items-center justify-content-center gap-2"
+            style="background-color:#343d68;color:white;">
             <div class="mb-3" style="font-weight:700;">
-                        _____________
-                    </div>
-                    <div>
-                        &copy 2025 by Satyabrata Guru
-                    </div>
-                    <div class="mb-3" style="font-weight:700">
-                        ____________
-                    </div>
-                </div>
+                _____________
+            </div>
+            <div>
+                &copy 2025 by Satyabrata Guru
+            </div>
+            <div class="mb-3" style="font-weight:700">
+                ____________
+            </div>
+        </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
         crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"
+        integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"
+        integrity="sha512-P2IDYZfqSwjcSjX0BKeNhwRUH8zRPGlgcWl5n6gBLzdi4Y5/0O4zaXrtO4K9TZK6Hn1BenYpKowuCavNandERg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
